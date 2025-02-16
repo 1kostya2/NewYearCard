@@ -32,15 +32,15 @@ android {
   }
   defaultConfig {
     applicationId 'ru.newyear2025'
-    minSdkVersion 19
-    targetSdkVersion 34
+      minSdk 34
+      targetSdkVersion 34
     versionCode 1
     versionName "1.0"
     multiDexEnabled true
   }
   compileOptions {
-    sourceCompatibility "8"
-    targetCompatibility "8"
+    sourceCompatibility "11"
+    targetCompatibility "11"
     coreLibraryDesugaringEnabled true
   }
   buildTypes {
